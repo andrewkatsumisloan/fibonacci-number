@@ -15,8 +15,10 @@ const InputForm = () => {
   };
 
   return (
-    <div className="bg-slate-200 mx-auto rounded-3xl w-fit px-6 py-4">
-      <div className="font-mono">Give me the first _ Fibonacci numbers!</div>
+    <div className="bg-slate-200 mx-auto rounded-3xl w-fit px-12 py-4">
+      <div className="font-mono text-2xl">
+        Give me the first _ Fibonacci numbers!
+      </div>
       <div className="flex justify-center mt-4 mb-2 items-center">
         <InputNumber
           className="mr-2"

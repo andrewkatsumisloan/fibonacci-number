@@ -7,7 +7,9 @@ function App() {
   const [fibonacciNumbers, setFibonacciNumbers] = useState([]);
   return (
     <div>
-      <div className="font-mono mb-2">Fibonacci Sequence Generator</div>
+      <div className="font-mono mb-2 text-3xl">
+        Fibonacci Sequence Generator
+      </div>
       <InputForm />
     </div>
   );
