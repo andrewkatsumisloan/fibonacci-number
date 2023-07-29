@@ -4,10 +4,10 @@ import { Input } from "postcss";
 import InputForm from "./components/InputForm";
 
 function App() {
-  const [fibonnaciNumbers, setFibonnaciNumbers] = useState([]);
+  const [fibonacciNumbers, setFibonacciNumbers] = useState([]);
   return (
     <div>
-      <div className="font-mono mb-2">Fibonnaci Number Calculator!</div>
+      <div className="font-mono mb-2">Fibonacci Sequence Generator</div>
       <InputForm />
     </div>
   );
